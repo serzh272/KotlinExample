@@ -5,7 +5,6 @@ import java.lang.IllegalArgumentException
 
 object UserHolder {
     private val map = mutableMapOf<String, User>()
-
     fun registerUser(
             fullName: String,
             email: String,
